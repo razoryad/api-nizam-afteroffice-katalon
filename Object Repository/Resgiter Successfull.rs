@@ -30,7 +30,7 @@
       <matchCondition>equals</matchCondition>
       <name>x-api-key</name>
       <type>Main</type>
-      <value>reqres-free-v1</value>
+      <value>${GlobalVariable.apiKey}</value>
       <webElementGuid>d4618dcb-7689-4fc5-97d2-12aff1430631</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>10.2.0</katalonVersion>
