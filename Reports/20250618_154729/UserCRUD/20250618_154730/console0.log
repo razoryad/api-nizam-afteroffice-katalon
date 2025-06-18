@@ -1,0 +1,32 @@
+2025-06-18 15:47:37.003 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/UserCRUD
+2025-06-18 15:47:37.161 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Rinda Ramisah
+2025-06-18 15:47:37.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = api-nizam-afteroffice-katalon
+2025-06-18 15:47:37.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = nizam - MSI
+2025-06-18 15:47:37.163 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-18 15:47:37.163 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.84
+2025-06-18 15:47:37.164 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-18 15:47:37.919 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-18 15:47:37.919 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/RegisterSuccess
+2025-06-18 15:47:38.332 DEBUG testcase.RegisterSuccess                 - 1: response = sendRequest(findTestObject("Resgiter Successfull"))
+2025-06-18 15:47:40.264 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\nizam\git\api-nizam-afteroffice-katalon\Reports\20250618_154729\UserCRUD\20250618_154730\requests\main\Resgiter...cessfull_0.har
+2025-06-18 15:47:40.376 DEBUG testcase.RegisterSuccess                 - 2: verifyResponseStatusCode(response, 200)
+2025-06-18 15:47:40.394 DEBUG testcase.RegisterSuccess                 - 3: verifyElementPropertyValue(response, "id", 4)
+2025-06-18 15:47:40.474 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/RegisterSuccess
+2025-06-18 15:47:40.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-18 15:47:40.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/GetSingleUser
+2025-06-18 15:47:40.544 DEBUG testcase.GetSingleUser                   - 1: response = sendRequest(findTestObject("Get Single User"))
+2025-06-18 15:47:40.668 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\nizam\git\api-nizam-afteroffice-katalon\Reports\20250618_154729\UserCRUD\20250618_154730\requests\main\Get-Single-User_1.har
+2025-06-18 15:47:40.676 DEBUG testcase.GetSingleUser                   - 2: verifyResponseStatusCode(response, 200)
+2025-06-18 15:47:40.697 DEBUG testcase.GetSingleUser                   - 3: verifyElementPropertyValue(response, "data.id", userId)
+2025-06-18 15:47:40.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/GetSingleUser
+2025-06-18 15:47:40.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-18 15:47:40.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/UpdateUser
+2025-06-18 15:47:40.793 DEBUG testcase.UpdateUser                      - 1: response = sendRequest(findTestObject("Update User"))
+2025-06-18 15:47:41.240 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\nizam\git\api-nizam-afteroffice-katalon\Reports\20250618_154729\UserCRUD\20250618_154730\requests\main\Update-User_2.har
+2025-06-18 15:47:41.244 DEBUG testcase.UpdateUser                      - 2: verifyResponseStatusCode(response, 200)
+2025-06-18 15:47:41.247 DEBUG testcase.UpdateUser                      - 3: verifyElementPropertyValue(response, "name", "morpheus")
+2025-06-18 15:47:41.273 DEBUG testcase.UpdateUser                      - 4: verifyElementPropertyValue(response, "job", "zion resident")
+2025-06-18 15:47:41.296 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/UpdateUser
+2025-06-18 15:47:41.363 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-18 15:47:41.363 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/UserCRUD
+2025-06-18 15:47:41.363 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

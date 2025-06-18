@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserCRUD" time="4.209" tests="3" failures="0" errors="0">
+   <testsuite name="UserCRUD" tests="3" failures="0" errors="0" time="4.209" skipped="0" timestamp="18-06-2025T15:47:37" hostname="nizam - MSI" id="Test Suites/UserCRUD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\nizam\\git\\api-nizam-afteroffice-katalon\\Reports\\20250618_154729\\UserCRUD\\20250618_154730"/>
+         <property name="logFiles" value="C:\\Users\\nizam\\git\\api-nizam-afteroffice-katalon\\Reports\\20250618_154729\\UserCRUD\\20250618_154730\\console0.log, C:\\Users\\nizam\\git\\api-nizam-afteroffice-katalon\\Reports\\20250618_154729\\UserCRUD\\20250618_154730\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Rinda Ramisah"/>
+         <property name="hostName" value="nizam - MSI"/>
+         <property name="hostAddress" value="192.168.1.84"/>
+         <property name="projectName" value="api-nizam-afteroffice-katalon"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+      </properties>
+      <testcase name="Test Cases/RegisterSuccess" time="2.555" classname="Test Cases/RegisterSuccess" status="PASSED">
+         <system-out><![CDATA[18-06-2025T15:47:37 - [TEST_CASE][PASSED] - Test Cases/RegisterSuccess: Test Cases/RegisterSuccess
+
+18-06-2025T15:47:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Resgiter Successfull")): Send request successfully
+
+18-06-2025T15:47:40 - [MESSAGE][INFO] - HAR: C:\Users\nizam\git\api-nizam-afteroffice-katalon\Reports\20250618_154729\UserCRUD\20250618_154730\requests\main\Resgiter...cessfull_0.har
+
+18-06-2025T15:47:40 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2025T15:47:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+18-06-2025T15:47:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+18-06-2025T15:47:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", 4): Verify element property value successfully
+
+18-06-2025T15:47:40 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GetSingleUser" time="0.263" classname="Test Cases/GetSingleUser" status="PASSED">
+         <system-out><![CDATA[18-06-2025T15:47:40 - [TEST_CASE][PASSED] - Test Cases/GetSingleUser: Test Cases/GetSingleUser
+
+18-06-2025T15:47:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Get Single User")): Send request successfully
+
+18-06-2025T15:47:40 - [MESSAGE][INFO] - HAR: C:\Users\nizam\git\api-nizam-afteroffice-katalon\Reports\20250618_154729\UserCRUD\20250618_154730\requests\main\Get-Single-User_1.har
+
+18-06-2025T15:47:40 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2025T15:47:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+18-06-2025T15:47:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+18-06-2025T15:47:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", userId): Verify element property value successfully
+
+18-06-2025T15:47:40 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UpdateUser" time="0.552" classname="Test Cases/UpdateUser" status="PASSED">
+         <system-out><![CDATA[18-06-2025T15:47:40 - [TEST_CASE][PASSED] - Test Cases/UpdateUser: Test Cases/UpdateUser
+
+18-06-2025T15:47:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Update User")): Send request successfully
+
+18-06-2025T15:47:41 - [MESSAGE][INFO] - HAR: C:\Users\nizam\git\api-nizam-afteroffice-katalon\Reports\20250618_154729\UserCRUD\20250618_154730\requests\main\Update-User_2.har
+
+18-06-2025T15:47:41 - [MESSAGE][PASSED] - Send request successfully
+
+18-06-2025T15:47:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+18-06-2025T15:47:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+18-06-2025T15:47:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+18-06-2025T15:47:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+18-06-2025T15:47:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "zion resident"): Verify element property value successfully
+
+18-06-2025T15:47:41 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-06-2025T15:47:37 - [TEST_SUITE][PASSED] - UserCRUD: Test Cases/UpdateUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

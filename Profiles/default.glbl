@@ -11,4 +11,18 @@
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'reqres-free-v1'</initValue>
+      <name>apiKey</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>userId</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
