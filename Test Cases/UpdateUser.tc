@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Register Successfull</name>
+   <name>UpdateUser</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a0607554-ba5f-49c6-be29-034da0dea269</testCaseGuid>
+   <testCaseGuid>0c78b9cb-f5bc-4c0a-a2e3-350f82132769</testCaseGuid>
 </TestCaseEntity>

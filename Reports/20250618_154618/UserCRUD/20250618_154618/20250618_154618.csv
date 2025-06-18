@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UserCRUD,,,,18-06-2025 15:46:23,18-06-2025 15:46:27,"4,344s",PASSED
+,,,,,,,
+Test Cases/RegisterSuccess,,,,18-06-2025 15:46:24,18-06-2025 15:46:26,"2,617s",PASSED
+"response = sendRequest(findTestObject(""Resgiter Successfull""))",,,,18-06-2025 15:46:24,18-06-2025 15:46:26,"2,107s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,18-06-2025 15:46:26,18-06-2025 15:46:26,"0,020s",PASSED
+"verifyElementPropertyValue(response, ""id"", 4)",,,,18-06-2025 15:46:26,18-06-2025 15:46:26,"0,080s",PASSED
+,,,,,,,
+Test Cases/GetSingleUser,,,,18-06-2025 15:46:26,18-06-2025 15:46:27,"0,258s",PASSED
+"response = sendRequest(findTestObject(""Get Single User""))",,,,18-06-2025 15:46:26,18-06-2025 15:46:27,"0,148s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,010s",PASSED
+"verifyElementPropertyValue(response, ""data.id"", userId)",,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,033s",PASSED
+,,,,,,,
+Test Cases/UpdateUser,,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,556s",PASSED
+"response = sendRequest(findTestObject(""Update User""))",,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,450s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,002s",PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,021s",PASSED
+"verifyElementPropertyValue(response, ""job"", ""zion resident"")",,,,18-06-2025 15:46:27,18-06-2025 15:46:27,"0,019s",PASSED

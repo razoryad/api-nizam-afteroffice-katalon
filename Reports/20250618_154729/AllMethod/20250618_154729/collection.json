@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/AllMethod",
+  "name": "AllMethod",
+  "reportFolder": "C:\\Users\\nizam\\git\\api-nizam-afteroffice-katalon\\Reports\\20250618_154729\\AllMethod\\20250618_154729",
+  "startTime": 1750236453422,
+  "endTime": 1750236461693,
+  "totalPassedTestCases": "3",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "3",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}
